@@ -15,10 +15,10 @@ defmodule Scrivener.Page do
 
   @type t :: %__MODULE__{
           entries: list(),
-          page_number: pos_integer(),
-          page_size: integer(),
-          total_entries: integer(),
-          total_pages: pos_integer()
+          page_number: pos_integer() | nil,
+          page_size: integer() | nil,
+          total_entries: integer() | nil,
+          total_pages: pos_integer() | nil
         }
   @type t(entry) :: %__MODULE__{
           entries: list(entry),
