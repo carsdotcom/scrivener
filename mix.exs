@@ -10,7 +10,6 @@ defmodule Scrivener.Mixfile do
       package: package(),
       description: "Pagination for the Elixir ecosystem",
       deps: deps(),
-      dialyzer: [ignore_warnings: ".dialyzer_ignore.exs"],
       docs: [
         main: "readme",
         extras: [
@@ -41,7 +40,7 @@ defmodule Scrivener.Mixfile do
     [
       maintainers: ["Drew Olson"],
       licenses: ["MIT"],
-      links: %{"github" => "https://github.com/drewolson/scrivener"},
+      links: %{"github" => "https://github.com/carsdotcom/scrivener"},
       files: [
         "lib/scrivener.ex",
         "lib/scrivener",
